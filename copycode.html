@@ -1,0 +1,129 @@
+<html>
+ <head>
+  <title>
+   Login ke FRM Chan
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 400px;
+            padding: 20px;
+        }
+        .container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .email-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 25px;
+            margin-bottom: 20px;
+        }
+        .email-container img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .email-container span {
+            font-size: 16px;
+        }
+        .email-container i {
+            margin-left: 10px;
+        }
+        .text {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .text a {
+            color: #8ab4f8;
+            text-decoration: none;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .buttons button {
+            background-color: transparent;
+            border: 1px solid #8ab4f8;
+            color: #8ab4f8;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 45%;
+        }
+        .buttons button:hover {
+            background-color: #8ab4f8;
+            color: #000;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <img alt="Profile picture" height="100" src="https://frmchan.github.io/frm.png" width="100"/>
+   <h1>
+    Login ke FRM Chan
+   </h1>
+   <div class="email-container">
+    <span id="kode">Maaf kode tidak ditemukan, silahkan periksa ulang tautan anda! Silahkan beraktifitas kembali sesuai kehidupan Anda!</span>
+    <i id="salin" class="fas fa-copy"></i>
+   </div>
+   <div class="text">
+    Silahkan salin kode diatas
+   </div>
+   <div class="text">
+    Sosmed kami:
+    <a href="">
+     tiktok 1,
+    </a>
+    <a href="https://www.tiktok.com/@frmchan">
+     tiktok 2
+    </a>
+   </div>
+   <!--<div class="buttons">
+    <button>
+     ...
+    </button>
+    <button>
+     ...
+    </button>
+   </div>--->
+  </div>
+  <script>
+const url = window.location.href
+const query = {}
+const params = url?.split('?')[1]?.split('&')
+params?.forEach(function(param) {
+  const keyValue = param.split('=')
+  query[keyValue[0]] = keyValue[1]
+})
+if (query.code) document.querySelector('#kode').innerText = query.code
+
+const copyBtn = document.getElementById('salin')
+const elem = document.querySelector('#kode')
+copyBtn.addEventListener('click', () => {
+  const text = elem.innerText
+  navigator.clipboard.writeText(text).then(() => {
+    alert('Teks telah disalin!')
+  }).catch((error) => {
+    alert('Error:', error)
+  })
+})
+</script>
+ </body>
+</html>
