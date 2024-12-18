@@ -72,6 +72,18 @@
             background-color: #8ab4f8;
             color: #000;
         }
+        #myTextarea {
+          background-color: transparent; 
+          border: none; 
+          outline: none; 
+          resize: none; 
+          font-size: 16px; 
+          color: #fff; 
+          padding: 10px; 
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+          border-radius: 5px; 
+          width: 100vw;
+        }
   </style>
  </head>
  <body>
@@ -81,7 +93,7 @@
     Login ke FRM Chan
    </h1>
    <div class="email-container">
-    <span id="kode">Maaf kode tidak ditemukan, silahkan periksa ulang tautan anda! Silahkan beraktifitas kembali sesuai kehidupan Anda!</span>
+    <textarea id="myTextarea">Maaf kode tidak ditemukan, silahkan periksa ulang tautan anda! Silahkan beraktifitas kembali sesuai kehidupan Anda!</textarea>
     <i id="salin" class="fas fa-copy"></i>
    </div>
    <div class="text">
@@ -113,17 +125,13 @@ params?.forEach(function(param) {
   const keyValue = param.split('=')
   query[keyValue[0]] = keyValue[1]
 })
-if (query.code) document.querySelector('#kode').innerText = query.code
+if (query.code) document.querySelector('#myTextarea').value = query.code
 
 const copyBtn = document.getElementById('salin')
-const elem = document.querySelector('#kode')
 copyBtn.addEventListener('click', () => {
-  const text = elem.innerText
-  navigator.clipboard.writeText(text).then(() => {
-    alert('Teks telah disalin!')
-  }).catch((error) => {
-    alert('Error:', error)
-  })
+  myTextarea.select();
+  document.execCommand('copy');
+  alert('Kode telah disalin!');
 })
 </script>
  </body>
