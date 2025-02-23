@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2025-02-24 06:21 AM
+5.0.229.1001615 (1001615)
+d4944c5 (15 Des 2023 9.18.33 PM)
+-->
+<scene title="Njir FRM" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ff000000" totalTime="14632" fps="30" modifiedTime="1740352868696" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <bookmark t="14616" />
+  <bookmark t="83" />
+  <bookmark t="1450" />
+  <bookmark t="2816" />
+  <bookmark t="1816" />
+  <bookmark t="3950" />
+  <bookmark t="4350" />
+  <bookmark t="5016" />
+  <bookmark t="4683" />
+  <bookmark t="5350" />
+  <bookmark t="1616" />
+  <bookmark t="10916" />
+  <bookmark t="11250" />
+  <bookmark t="11583" />
+  <bookmark t="10683" />
+  <bookmark t="4850" />
+  <bookmark t="5983" />
+  <bookmark t="7783" />
+  <bookmark t="7216" />
+  <bookmark t="8016" />
+  <bookmark t="7350" />
+  <bookmark t="8183" />
+  <bookmark t="7450" />
+  <bookmark t="8283" />
+  <bookmark t="7550" />
+  <bookmark t="8416" />
+  <bookmark t="7650" />
+  <bookmark t="8550" />
+  <bookmark t="8683" />
+  <audio id="6466774" label="3676bf96a46c5f4d047b118ead2be1fc.mp4" startTime="0" endTime="14632" src="content://media/external/video/media/1823385" outTime="14632" mediaFillMode="fill" />
+  <shape id="6466772" label="Rectangle 1" hidden="true" startTime="0" endTime="14632" fillType="color" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+      <scale value="9.600000,5.400000" />
+    </transform>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <embedScene id="6466803" label="Group 1" startTime="0" endTime="2832" fillType="intrinsic" mediaFillMode="fill">
+    <transform>
+      <location value="960.000000,540.000000,0.000000" />
+      <scale>
+        <kf t="0.311794" v="1.000000,1.000000" e="elastic 0.5 1.0 0.0 1.0" />
+        <kf t="0.029308" v="0.162428,0.162428" />
+        <kf t="0.641243" v="1.000000,1.000000" />
+        <kf t="0.994350" v="0.020303,0.020303" e="reverse elastic 0.5 1.0 0.0 1.0" />
+      </scale>
+      <rotation>
+        <kf t="0.311794" v="0.000000" />
+        <kf t="0.570621" v="-72.439026" e="cubicBezier 0.42 0.0 0.58 1.0" />
+        <kf t="0.806144" v="0.000000" e="cubicBezier 0.42 0.0 0.58 1.0" />
+      </rotation>
+      <opacity value="0.271484" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="2832" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="6466777" label="Circle 2" startTime="0" endTime="2832" fillType="color" mediaFillMode="fill" s=".circle">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+          <scale value="2.355000,2.355000" />
+        </transform>
+        <fillColor value="#ffa2c2cc" />
+        <property name="size" type="vec2" value="100.000000,100.000000" />
+      </shape>
+      <shape id="6466801" label="Rounded Rectangle 1" startTime="0" endTime="2832" fillType="color" mediaFillMode="fill" s=".roundrect">
+        <transform>
+          <location value="783.000000,774.000000,0.000000" />
+          <rotation value="39.512196" />
+        </transform>
+        <fillColor value="#ffa2c2cc" />
+        <property name="size" type="vec2" value="47.000000,128.000000" />
+        <property name="cornerRadius" type="float" value="25.000000" />
+      </shape>
+    </scene>
+  </embedScene>
+  <shape id="6466775" label="Circle 1" startTime="0" endTime="2832" fillType="color" mediaFillMode="fill" parent="6466800" s=".circle">
+    <transform>
+      <location>
+        <kf t="0.512006" v="-3.499695,-223.482056,0.000000" e="cubicBezier 0.73404956 0.0 0.28247932 1.0" />
+        <kf t="0.029308" v="0.000305,0.017944,0.000000" />
+        <kf t="0.641243" v="-3.499695,-223.482056,0.000000" />
+        <kf t="0.994350" v="0.000305,0.017944,0.000000" e="cubicBezier 1.0 0.0 0.028236926 1.0" />
+      </location>
+      <scale value="0.480000,0.480000" />
+    </transform>
+    <fillColor value="#ff4285f4" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="6466778" label="Circle 1 Copy" startTime="0" endTime="2832" fillType="color" mediaFillMode="fill" parent="6466800" s=".circle">
+    <transform>
+      <location>
+        <kf t="0.512006" v="0.000000,222.483704,0.000000" e="cubicBezier 0.74231404 0.0 0.24942148 1.0" />
+        <kf t="0.029308" v="0.000000,-0.016296,0.000000" />
+        <kf t="0.641243" v="0.000000,222.483704,0.000000" />
+        <kf t="0.994350" v="0.000000,-0.016296,0.000000" e="cubicBezier 1.0 0.0 0.0 1.0" />
+      </location>
+      <scale value="0.480000,0.480000" />
+    </transform>
+    <fillColor value="#ffeb4335" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="6466779" label="Circle 1 Copy 2" startTime="0" endTime="2832" fillType="color" mediaFillMode="fill" parent="6466800" s=".circle">
+    <transform>
+      <location>
+        <kf t="0.512006" v="226.982666,0.000000,0.000000" e="cubicBezier 0.74104685 0.0 0.26446283 1.0" />
+        <kf t="0.029308" v="-0.017334,0.000000,0.000000" />
+        <kf t="0.641243" v="226.982666,0.000000,0.000000" />
+        <kf t="0.994350" v="-3.517334,0.000000,0.000000" e="cubicBezier 1.0 0.0 0.0 1.0" />
+      </location>
+      <scale value="0.480000,0.480000" />
+    </transform>
+    <fillColor value="#fffbbc05" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="6466780" label="Circle 1 Copy 3" startTime="0" endTime="2832" fillType="color" mediaFillMode="fill" parent="6466800" s=".circle">
+    <transform>
+      <location>
+        <kf t="0.512006" v="-220.868103,0.000000,0.000000" e="cubicBezier 0.72727275 0.0 0.23140496 1.0" />
+        <kf t="0.029308" v="0.015320,0.000000,0.000000" />
+        <kf t="0.641243" v="-220.868103,0.000000,0.000000" />
+        <kf t="0.994350" v="-3.484680,0.000000,0.000000" e="cubicBezier 1.0 0.0 0.0 1.0" />
+      </location>
+      <scale value="0.480000,0.480000" />
+    </transform>
+    <fillColor value="#ff34a853" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <shape id="6466781" label="Circle 3" startTime="2800" endTime="4632" fillType="color" mediaFillMode="fill" parent="6466800" s=".circle">
+    <transform>
+      <location>
+        <kf t="0.008734" v="0.000000,0.271790,0.000000" />
+        <kf t="0.573144" v="0.000000,0.271790,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+        <kf t="0.136463" v="0.000000,-100.228210,0.000000" />
+        <kf t="0.882096" v="112.000000,0.271790,0.000000" />
+      </location>
+      <scale>
+        <kf t="0.008734" v="0.210000,0.210000" />
+        <kf t="0.573144" v="0.580000,0.580000" e="elastic 0.5 1.0 0.0 1.0" />
+      </scale>
+    </transform>
+    <fillColor value="#ff4285f4" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+  </shape>
+  <embedScene id="6466798" label="Group and Mask 1" startTime="4100" endTime="14632" fillType="intrinsic" outTime="10532" mediaFillMode="fill" parent="6466800">
+    <transform>
+      <pivot value="-14.312500,-13.500000" />
+      <rotation>
+        <kf t="0.096563" v="0.000000" e="cubicBezier 0.42 0.0 0.58 1.0" />
+        <kf t="0.001614" v="-32.926819" />
+      </rotation>
+      <opacity>
+        <kf t="0.055355" v="1.000000" e="cubicBezier 0.36019284 0.0 1.0 0.44377163" />
+        <kf t="0.001614" v="0.000000" />
+      </opacity>
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="10532" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <embedScene id="6466788" label="Group and Mask 2" startTime="0" endTime="10532" fillType="intrinsic" outTime="10532" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+          <pivot value="0.000000,34.000000" />
+          <rotation>
+            <kf t="0.036460" v="0.000000" e="cubicBezier 1.0 0.0 0.0 1.0" />
+          </rotation>
+        </transform>
+        <fillColor value="#ff000000" />
+        <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="6932" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+          <shape id="6466783" label="google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png Copy" startTime="0" endTime="6932" fillType="media" fillImage="content://media/external/images/media/1823392" mediaFillMode="fill" s=".rect">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+              <scale value="0.587963,0.587963" />
+            </transform>
+            <property name="size" type="vec2" value="527.500000,540.000000" />
+          </shape>
+          <shape id="6466787" label="Shape 1" startTime="0" endTime="6932" fillType="color" blending="mask" mediaFillMode="fill">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+            </transform>
+            <fillColor value="#ffbebebe" />
+            <path d="M 83.0 132.3313L -133.19531 34.0L -340.6953 188.5L -44.5 379.0L 280.5 294.0L 83.0 132.3313Z" />
+          </shape>
+        </scene>
+      </embedScene>
+      <embedScene id="6466790" label="Group and Mask 3" startTime="0" endTime="10532" fillType="intrinsic" outTime="10532" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+          <rotation>
+            <kf t="0.052222" v="-1.097565" e="cubicBezier 1.0 0.0 0.0 1.0" />
+          </rotation>
+        </transform>
+        <fillColor value="#ff000000" />
+        <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="6932" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+          <shape id="6466784" label="google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png Copy 2" startTime="0" endTime="6932" fillType="media" fillImage="content://media/external/images/media/1823392" mediaFillMode="fill" s=".rect">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+              <scale value="0.587963,0.587963" />
+            </transform>
+            <property name="size" type="vec2" value="527.500000,540.000000" />
+          </shape>
+          <shape id="6466789" label="Shape 1" startTime="0" endTime="6932" fillType="color" blending="mask" mediaFillMode="fill">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+            </transform>
+            <fillColor value="#ff888888" />
+            <path d="M -110.0 12.500001L -346.5 190.5L -374.5 -217.5L -110.0 -17.5L -110.0 12.500001Z" />
+          </shape>
+        </scene>
+      </embedScene>
+      <embedScene id="6466792" label="Group and Mask 4" startTime="0" endTime="10532" fillType="intrinsic" outTime="10532" mediaFillMode="fill">
+        <transform>
+          <location value="959.999939,540.000000,0.000000" />
+          <pivot value="0.000000,-21.000000" />
+          <rotation>
+            <kf t="0.125047" v="-1.097565" e="cubicBezier 1.0 0.0 0.0 1.0" />
+          </rotation>
+        </transform>
+        <fillColor value="#ff000000" />
+        <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="11032" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+          <shape id="6466776" label="google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png" startTime="0" endTime="11032" fillType="media" fillImage="content://media/external/images/media/1823392" mediaFillMode="fill" s=".rect">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+              <scale value="0.587963,0.587963" />
+            </transform>
+            <property name="size" type="vec2" value="527.500000,540.000000" />
+          </shape>
+          <shape id="6466791" label="Shape 1" startTime="0" endTime="11032" fillType="color" blending="mask" mediaFillMode="fill">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+            </transform>
+            <fillColor value="#fff4b446" />
+            <path d="M 100.0 -101.5L 290.0 -269.5L -258.5 -392.5L -310.1505 -215.0L -331.1505 -184.0L -121.0 -21.0L 100.0 -101.5Z" />
+          </shape>
+        </scene>
+      </embedScene>
+      <shape id="6466796" label="Shape 1" startTime="0" endTime="10532" fillType="color" blending="mask" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <fillColor value="#00e8f0b6" />
+        <effect id="com.alightcreative.effects.drawing.progress" locallyApplied="true">
+          <property name="start" type="float">
+            <kf t="0.001614" v="0.000000" />
+          </property>
+          <property name="end" type="float">
+            <kf t="0.001614" v="0.000000" />
+            <kf t="0.096563" v="100.000000" e="cubicBezier 0.6969697 0.0 0.27341598 1.0" />
+          </property>
+        </effect>
+        <path-stroke direction="centered" join="round" end-size="1.500000">
+          <size value="159.500000" />
+        </path-stroke>
+        <path d="M 188.0 171.5C 188.0 171.5, 165.625 247.0, 0.0 247.0C -165.625 247.0, -207.875 187.375, -236.0 0.0C -264.125 -187.375, -40.5 -250.5, -40.5 -250.5C 147.5 -274.0, 235.5 -121.5, 235.5 -121.5L 188.0 171.5" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="6466795" label="Group and Mask 5" startTime="3933" endTime="14632" fillType="intrinsic" outTime="10699" mediaFillMode="fill" parent="6466800">
+    <transform>
+      <pivot value="146.750000,128.500000" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="10699" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <embedScene id="6466786" label="Group and Mask 1" startTime="0" endTime="10699" fillType="intrinsic" outTime="10699" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+          <pivot value="168.750000,103.750000" />
+        </transform>
+        <fillColor value="#ff000000" />
+        <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="10699" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+          <shape id="6466785" label="google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png Copy 3" startTime="0" endTime="10699" fillType="media" fillImage="content://media/external/images/media/1823392" mediaFillMode="fill" s=".rect">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+              <scale value="0.587963,0.587963" />
+            </transform>
+            <property name="size" type="vec2" value="527.500000,540.000000" />
+          </shape>
+          <shape id="6466782" label="Shape 1" startTime="0" endTime="10699" fillType="color" blending="mask" mediaFillMode="fill">
+            <transform>
+              <location value="960.000000,540.000000,0.000000" />
+            </transform>
+            <fillColor value="#fffae941" />
+            <path d="M 357.0 -74.5L -19.5 -74.5L -19.5 97.0L 84.0 129.5L 259.5 282.0L 357.0 -74.5Z" />
+          </shape>
+        </scene>
+      </embedScene>
+      <shape id="6466793" label="Shape 1" startTime="0" endTime="2133" fillType="color" blending="mask" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <fillColor value="#00a2b7a0" />
+        <effect id="com.alightcreative.effects.drawing.progress" locallyApplied="true">
+          <property name="start" type="float" value="0.000000" />
+          <property name="end" type="float">
+            <kf t="0.007501" v="0.000000" />
+            <kf t="0.382560" v="100.000000" />
+          </property>
+        </effect>
+        <path-stroke direction="centered" join="round" end-size="1.500000">
+          <color value="#ff4285f4" />
+          <size value="224.500000" />
+        </path-stroke>
+        <path d="M 2.5 -0.5L 235.5 -0.5C 293.5 218.5625, 0.0 257.5, 0.0 257.5C -107.75 258.0, 2.5 -0.5, 2.5 -0.5" />
+      </shape>
+    </scene>
+  </embedScene>
+  <nullobj id="6466800" label="Null 1" startTime="0" endTime="14632" mediaFillMode="fill" type="perspective">
+    <transform>
+      <location>
+        <kf t="0.005672" v="960.000000,540.000000,0.000000" />
+        <kf t="0.365637" v="960.000000,540.000000,0.000000" />
+        <kf t="0.408898" v="960.000000,540.000000,0.000000" />
+        <kf t="0.531916" v="629.089355,541.361572,0.000000" e="cubicBezier 0.0 1.0 0.4331956 1.0" />
+      </location>
+      <scale>
+        <kf t="0.110443" v="1.000000,1.000000" e="cubicBezier 0.7623967 0.0 0.2210744 1.0" />
+        <kf t="0.005672" v="0.260000,0.260000" />
+        <kf t="0.192455" v="0.280000,0.280000" e="reverse elastic 0.5 1.0 0.01211074 1.0" />
+        <kf t="0.269956" v="1.120000,1.120000" e="cubicBezier 0.0 0.5821799 0.4855372 1.0" />
+        <kf t="0.342810" v="1.120000,1.120000" />
+        <kf t="0.408898" v="0.400000,0.400000" e="cubicBezier 0.42 0.0 0.58 1.0" />
+      </scale>
+      <rotation>
+        <kf t="0.005672" v="0.000000" />
+        <kf t="0.110443" v="-180.000000" e="cubicBezier 0.7107438 0.0 0.2348485 1.0" />
+        <kf t="0.192455" v="-1.097565" e="reverse elastic 0.5 1.0 0.0 1.0" />
+      </rotation>
+    </transform>
+  </nullobj>
+  <embedScene id="6466809" label="Group 2" startTime="4666" endTime="11432" fillType="intrinsic" mediaFillMode="fill">
+    <transform>
+      <location value="981.500000,529.864380,0.000000" />
+      <pivot value="-59.687561,-15.031250" />
+      <scale>
+        <kf t="0.051729" v="1.046563,1.046563" />
+        <kf t="0.194650" v="0.467110,0.467110" e="cubicBezier 0.42 0.0 0.58 1.0" />
+      </scale>
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="1920" height="1080" exportWidth="1920" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="6766" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <shape id="6466805" label="Shape 1" startTime="0" endTime="6032" fillType="color" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <fillColor value="#008dcd68" />
+        <effect id="com.alightcreative.effects.drawing.progress" locallyApplied="true">
+          <property name="start" type="float">
+            <kf t="0.002653" v="100.000000" />
+            <kf t="0.085544" v="0.000000" />
+          </property>
+          <property name="end" type="float">
+            <kf t="0.030338" v="100.000000" />
+            <kf t="0.107759" v="0.000000" />
+          </property>
+        </effect>
+        <path-stroke direction="centered" end-size="1.500000">
+          <color value="#ffeb4335" />
+          <size value="18.000000" />
+        </path-stroke>
+        <path d="M 228.0 -251.5C 447.6875 -360.06247, 331.74997 6.0000305, 80.49994 168.0C -170.75009 330.0, -567.0626 315.93744, -366.00006 132.49994C -164.93753 -50.93756, 8.3125 -142.93753, 228.0 -251.5" />
+      </shape>
+      <shape id="6466806" label="Shape 1 Copy" startTime="167" endTime="6200" fillType="color" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <fillColor value="#008dcd68" />
+        <effect id="com.alightcreative.effects.drawing.progress" locallyApplied="true">
+          <property name="start" type="float">
+            <kf t="0.002652" v="100.000000" />
+            <kf t="0.085530" v="0.000000" />
+          </property>
+          <property name="end" type="float">
+            <kf t="0.030333" v="100.000000" />
+            <kf t="0.107741" v="0.000000" />
+          </property>
+        </effect>
+        <path-stroke direction="centered" end-size="1.500000">
+          <color value="#fffbbc05" />
+          <size value="18.000000" />
+        </path-stroke>
+        <path d="M 228.0 -251.5C 447.6875 -360.06247, 331.74997 6.0000305, 80.49994 168.0C -170.75009 330.0, -567.0626 315.93744, -366.00006 132.49994C -164.93753 -50.93756, 8.3125 -142.93753, 228.0 -251.5" />
+      </shape>
+      <shape id="6466807" label="Shape 1 Copy 2" startTime="333" endTime="6599" fillType="color" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <fillColor value="#008dcd68" />
+        <effect id="com.alightcreative.effects.drawing.progress" locallyApplied="true">
+          <property name="start" type="float">
+            <kf t="0.002553" v="100.000000" />
+            <kf t="0.082349" v="0.000000" />
+          </property>
+          <property name="end" type="float">
+            <kf t="0.029205" v="100.000000" />
+            <kf t="0.103734" v="0.000000" />
+          </property>
+        </effect>
+        <path-stroke direction="centered" end-size="1.500000">
+          <color value="#ff34a853" />
+          <size value="18.000000" />
+        </path-stroke>
+        <path d="M 228.0 -251.5C 447.6875 -360.06247, 331.74997 6.0000305, 80.49994 168.0C -170.75009 330.0, -567.0626 315.93744, -366.00006 132.49994C -164.93753 -50.93756, 8.3125 -142.93753, 228.0 -251.5" />
+      </shape>
+      <shape id="6466808" label="Shape 1 Copy 3" startTime="500" endTime="6766" fillType="color" mediaFillMode="fill">
+        <transform>
+          <location value="960.000000,540.000000,0.000000" />
+        </transform>
+        <fillColor value="#008dcd68" />
+        <effect id="com.alightcreative.effects.drawing.progress" locallyApplied="true">
+          <property name="start" type="float">
+            <kf t="0.002553" v="100.000000" />
+            <kf t="0.082349" v="0.000000" />
+          </property>
+          <property name="end" type="float">
+            <kf t="0.029205" v="100.000000" />
+            <kf t="0.103734" v="0.000000" />
+          </property>
+        </effect>
+        <path-stroke direction="centered" end-size="1.500000">
+          <color value="#ff4285f4" />
+          <size value="18.000000" />
+        </path-stroke>
+        <path d="M 228.0 -251.5C 447.6875 -360.06247, 331.74997 6.0000305, 80.49994 168.0C -170.75009 330.0, -567.0626 315.93744, -366.00006 132.49994C -164.93753 -50.93756, 8.3125 -142.93753, 228.0 -251.5" />
+      </shape>
+    </scene>
+  </embedScene>
+  <embedScene id="6466818" label="Group 3" startTime="6266" endTime="8366" fillType="intrinsic" outTime="2100" mediaFillMode="fill">
+    <transform>
+      <location value="1021.615356,540.000000,0.000000" />
+      <pivot value="46.250000,81.311951" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <scene title="" width="2043" height="1080" exportWidth="2043" exportHeight="1080" precompose="dynamicResolution" bgcolor="#00000000" totalTime="2100" fps="30" modifiedTime="0" amver="1001615" ffver="106" am="com.alightcreative.motion/5.0.229.1001615" amplatform="android" retime="off" retimeAdaptFPS="false">
+      <text id="6466811" label="Google Copy" startTime="0" endTime="2100" fillType="color" mediaFillMode="fill" size="18.000000" font="googlefonts?name=Concert One&amp;weight=400" wrapWidth="512" align="center">
+        <transform>
+          <location>
+            <kf t="0.388573" v="860.000000,549.572205,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+            <kf t="0.007621" v="860.000000,648.331360,0.000000" />
+          </location>
+          <scale value="2.998047,2.998047" />
+        </transform>
+        <fillColor value="#ff4285f4" />
+        <content>F</content>
+      </text>
+      <text id="6466812" label="Google Copy 2" startTime="133" endTime="2100" fillType="color" mediaFillMode="fill" size="18.000000" font="googlefonts?name=Concert One&amp;weight=400" wrapWidth="512" align="center">
+        <transform>
+          <location>
+            <kf t="0.432130" v="960.000000,549.561951,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+            <kf t="0.008643" v="960.000000,648.337158,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+          </location>
+          <scale value="2.998047,2.998047" />
+        </transform>
+        <fillColor value="#ffeb4335" />
+        <content>R</content>
+      </text>
+      <text id="6466814" label="Google Copy 3" startTime="233" endTime="2100" fillType="color" mediaFillMode="fill" size="18.000000" font="googlefonts?name=Concert One&amp;weight=400" wrapWidth="512" align="center">
+        <transform>
+          <location>
+            <kf t="0.009104" v="1053.730591,640.598694,0.000000" e="elastic 0.5 1.0 0.036505222 1.0" />
+            <kf t="0.455274" v="1076.164185,549.561951,0.000000" e="elastic 0.5 1.0 0.036505222 1.0" />
+          </location>
+          <scale value="2.998047,2.998047" />
+        </transform>
+        <fillColor value="#fffbbc06" />
+        <content>M</content>
+      </text>
+      <text id="6466815" label="Google Copy 4" hidden="true" startTime="333" endTime="2100" fillType="color" mediaFillMode="fill" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="512" align="center">
+        <transform>
+          <location>
+            <kf t="0.499719" v="1144.730591,549.561951,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+            <kf t="0.009620" v="1144.730591,645.061951,0.000000" />
+          </location>
+          <scale value="2.998047,2.998047" />
+        </transform>
+        <fillColor value="#ff4285f4" />
+      </text>
+      <text id="6466816" label="Google Copy 5" hidden="true" startTime="433" endTime="2100" fillType="color" mediaFillMode="fill" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="512" align="center">
+        <transform>
+          <location>
+            <kf t="0.550090" v="1211.230591,549.561951,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+            <kf t="0.010198" v="1211.230591,693.061951,0.000000" />
+          </location>
+          <scale value="2.998047,2.998047" />
+        </transform>
+        <fillColor value="#ff34a853" />
+        <content>l</content>
+      </text>
+      <text id="6466817" label="Google Copy 6" hidden="true" startTime="566" endTime="2100" fillType="color" mediaFillMode="fill" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="512" align="center">
+        <transform>
+          <location>
+            <kf t="0.597783" v="1275.730591,549.561951,0.000000" e="elastic 0.5 1.0 0.0 1.0" />
+            <kf t="0.011080" v="1275.730591,660.061951,0.000000" />
+          </location>
+          <scale value="2.998047,2.998047" />
+        </transform>
+        <fillColor value="#ffeb4335" />
+        <content>e</content>
+      </text>
+    </scene>
+  </embedScene>
+</scene>
